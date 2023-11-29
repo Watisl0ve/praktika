@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Tenor+Sans&display=swap');
+
+.main{
+    margin: 0;
+    background-color: #FFFFFF;
+    margin-top: 50px;
+}
+
+article{
+    width: 100%;
+    padding-top: 30px;
+    background-color: #FFFFFF;
+    padding-bottom: 50px;
+}
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.logo_logo_oNas{
+    border: 6px solid #FFFFFF;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 30px;
+    width: 50%;
+    padding: 50px;
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 60px;
+    color: #FFFFFF;
+}
+
+.abzac_logo_oNas{
+    background-color: #A7CB83A8;
+    width: 70%; 
+    margin-left: 20%;   
+    padding: 20px 30px;
+    border-radius: 30px;
+}
+
+
+.logo_oNas{
+    background-image:url("../../../images/fon_onas.png");
+    background-size: cover;
+    margin: 90px 0 0 0;
+    padding: 150px 0px;
+    text-align: center;
+    padding-left: 30%;
+}
+.abzac_oNas{
+    border: 2px solid #A7CB83A8;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 30px;
+    width: 80%;
+    padding: 0 20px;
+    margin-left: 10%;
+    background-color: #F5EEE8;
+    
+}
+.name_abzac{
+    text-align: justify;
+}
+.bezoNas{
+    margin-bottom: 0;
+    background-color: #FFFFFF;
+}
+
+@media (max-width:480px){
+    .logo_oNas{
+        background-image: url("../../../images//фонОнас_Моб.png");
+        background-size: cover;
+        padding: 20px 0;
+        margin: 0;
+    }
+    .abzac_oNas{
+        width: 80%;
+        margin-left: 8%;
+        padding: 0px 10px;
+        background-color: #FFFFFF;
+
+    }
+
+    .main{
+        margin: 0;
+    }
+    
+    
+    .logo_logo_oNas{
+        font-size: 25px;
+        padding: 20px;
+    }
+    .abzac_logo_oNas{
+        margin-left: 8%;
+    }
+}

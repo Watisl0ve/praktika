@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Tenor+Sans&display=swap');
+
+.main{
+    margin: 0;
+    background-color: #FFFFFF;
+    margin-top: 50px;
+}
+
+.map_one{
+    color: #E6D3C0;
+    font-size: 12px;
+    top: 0px;
+}
+.map_two{
+    color: #E6D3C0;
+    font-size: 12px;
+    top: 14px;
+}
+.map_three{
+    width: 560px;
+    height: 400px;
+    border: 5px solid #A7CB83;
+    position: relative;
+    overflow: hidden;
+    width: 100%
+}
+.kontakty_map{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-top: 30px;
+    background-color: #FFFFFF;
+    margin-bottom: 0;
+    padding-bottom: 50px;
+}
+
+.logo_kontakty{
+    background-image: url("../../../images/фон_кон.png");
+    background-size: cover;
+    margin: 90px 0 0 0;
+    padding: 100px 0px;
+    text-align: right;
+
+}
+.map{
+    margin-left: 50%;
+    width: 40%
+}
+.logo_logo_kontakty{
+    border: 6px solid #FFFFFF;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 30px;
+    width: 50%;
+    padding: 50px;
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 60px;
+    color: #FFFFFF;
+}
+.prava{
+    color: #FFFFFF;
+    text-align: center;
+    padding-bottom: 0px;
+}
+.abzac_spisok{
+    border: 2px solid #A7CB83;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 30px;
+    width: 20%;
+    background-color: #F5EEE8;
+}
+.abzac{
+    padding: 10px;
+    text-align: center;
+}
+.name_abzac2{
+    text-align: center;
+}
+h3{
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 30px;
+}
+.bezMenu{
+    margin-bottom: 0;
+}
+
+
+
+
+
+/*вертикальный телефон*/
+@media (max-width: 600px) {
+    .main{
+        margin: 0;
+    }
+
+    .logo_logo_kontakty{
+        font-size: 25px;
+        padding: 20px;
+        margin-left: 25%; 
+    }
+    
+    .kontakty_map{
+        display: block;
+    }
+    .abzac_spisok{
+        margin-left: 10%;
+        width: 80%;
+        margin-bottom: 30px;
+    }
+    .map{
+        padding-top: 20px;
+        width: 80%;
+        margin-left: 10%;
+    }
+    .logo_kontakty{
+        padding: 15px 0px;
+        background-image: url("../../../images/фонОнас_Моб.png");
+        margin: 0;
+    }
+    h3{
+        font-size: 22px;
+    }
+}

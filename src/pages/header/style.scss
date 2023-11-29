@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Tenor+Sans&display=swap');
+
+.name_header{
+  font-size: 50px;
+  margin:0;
+  font-family: 'Marck Script', cursive;
+  padding: 10px 0;
+  margin-right: 200px;
+  margin-top: 5px;
+  color: #3E3E3E;
+}
+.networks{
+  padding-bottom: 20px;
+  display: flex;
+
+}
+.menu_nazv{
+  color:#3E3E3E;
+}
+.menu_nazv:hover{
+  color: white;
+}
+
+.header__menu{
+  display: flex;
+  > div{
+    padding-right: 25px;
+    margin-top: 35px;
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 20px;
+  }
+}
+
+.headerHeader {
+    display: flex;
+    position: fixed; 
+    justify-content:space-evenly; 
+    top: 0;  
+    z-index: 100;  
+    width: 100%; 
+    background-color: #A7CB83;
+    opacity: 0.9;
+    height: 90px;
+  &__menu {
+    
+    display: flex;
+
+    > div {
+      margin-top: 30px;
+      position: relative;
+      a {
+        position: relative;
+        text-decoration: none;
+        font-family: 'Tenor Sans', sans-serif;
+        font-style: normal;
+        font-size: 20px;
+        line-height: 24px;
+        align-items: center;
+        padding-left: 20px;
+        z-index: 1;
+      }
+      a:hover {
+        opacity: 0.6;
+      }
+    }
+  }
+
+  &__logo {
+    display: flex;
+    margin-left: 10%;
+  }
+
+  &__icons {
+    
+
+    > div {
+      padding-right: 30px;
+    }
+
+    > div:last-child {
+      padding-right: 0;
+    }
+
+    justify-content: right;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 800px) {
+  .header__burger-menu {
+    display: none;
+  }
+}
+
+@media (max-width: 800px) {
+  .header__burger-menu.visible {
+    display: block;
+  }
+  .burger{
+    margin-top: 25px;
+    margin-left: 20px;
+  }
+  .networks{
+    margin-top: 0;
+    padding-top: 0;
+  }
+  .headerHeader{
+    position: relative;
+    justify-content: space-between;
+    display: flex;
+    height: 70px;
+  }
+  .name_header{
+    padding: 20px 0px 20px 30px;
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+  }
+  .header__menu {
+    display: none;
+  }
+  
+  .header__menu.open {
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 50%;
+    background-color: #A7CB83;
+    padding: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    z-index: 2;
+
+    > div {
+      margin-bottom: 20px;
+      font-size: 17px;
+    }
+  }
+}
+
+
